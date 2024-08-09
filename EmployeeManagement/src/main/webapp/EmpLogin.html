@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+  .container {
+        width: 300px;
+        padding: 16px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        margin: auto;
+        margin-top: 100px;
+    }
+    h1 {
+        text-align: center;
+        color: #808080; /* Grey color applied */
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    input[type="number"], input[type="text"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        background-color: #808080;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
+    input[type="submit"]:hover {
+        opacity:1;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Login Form</h1>
+    <form action="myLogin">
+        Empno: <input type="number" name="empno" placeholder="Enter Employee number"><br><br>
+        Employee name: <input type="text" name="ename" placeholder="Enter Employee name"><br><br>
+        <input type="submit" value="Login">
+    </form>
+</div>
+</body>
+</html>
